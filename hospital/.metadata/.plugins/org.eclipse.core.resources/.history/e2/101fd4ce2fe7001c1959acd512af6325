@@ -1,0 +1,12 @@
+package com.HospitalManagement.Repository;
+
+
+
+import com.hospital.management.hospital.entity.Patient;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+
+public interface PatientInterface extends JpaRepository<Patient, Long>, JpaSpecificationExecutor<Long> {
+
+   // Patient findByEmpName(String i);
+}

@@ -1,0 +1,5 @@
+package com.HospitalManagement.Service;
+
+public class DoctorServiceImpl {
+
+}

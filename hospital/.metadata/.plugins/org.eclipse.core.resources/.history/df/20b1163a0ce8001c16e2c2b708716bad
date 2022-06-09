@@ -1,0 +1,5 @@
+package com.HospitalManagement.Repository;
+
+public class Doctor {
+
+}

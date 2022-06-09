@@ -1,0 +1,18 @@
+package com.HospitalManagement.Service;
+
+import lombok.Getter;
+import lombok.Setter;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
+
+@Getter
+@Setter
+@Service
+public class LoginReq {
+
+    String userName ;
+    String password;
+
+
+
+}

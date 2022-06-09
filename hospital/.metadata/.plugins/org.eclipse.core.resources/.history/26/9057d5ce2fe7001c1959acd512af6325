@@ -1,0 +1,14 @@
+package com.HospitalManagement.Repository;
+
+
+import com.hospital.management.hospital.entity.Users;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+
+public interface UserInterface extends JpaRepository<Users, Long>, JpaSpecificationExecutor<Long> {
+
+  Users findByusername(String name);
+
+
+
+    }

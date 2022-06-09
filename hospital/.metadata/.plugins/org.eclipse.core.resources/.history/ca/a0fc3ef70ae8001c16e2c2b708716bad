@@ -1,0 +1,5 @@
+package com.HospitalManagement.Entity;
+
+public class Doctor {
+
+}
